@@ -56,7 +56,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.422), rgba(0, 0, 0, 0.873)),
     url("./images/ryan-stone-IxFjSPBzyM4-unsplash.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; 
   position: absolute;
   top: 50%;
   left: 50%;
@@ -107,6 +107,8 @@
     height: 50vh;
     position: absolute;
     border-radius: 20px;
+      background-repeat: no-repeat;
+  background-size: cover;
   }
   .Digital {
     display: flex;
@@ -153,6 +155,8 @@
     height: 50vh;
     position: absolute;
     border-radius: 20px;
+      background-repeat: no-repeat;
+  background-size: cover;
   }
   .Digital {
     display: flex;
@@ -199,6 +203,8 @@
     height: 50vh;
     position: absolute;
     border-radius: 20px;
+      background-repeat: no-repeat;
+  background-size: cover;
   }
   .Digital {
     display: flex;
