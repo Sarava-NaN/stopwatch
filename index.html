@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STOPWATCH</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--  -->
+    <header class="header" onclick="Header()">
+      <div class="Title">
+        <img src="./images/stopwatch.png" alt="" />
+        <h2 id="title">StopWatch Using Javascript</h2>
+        <img src="./images/time-tracking.png" alt="" />
+      </div>
+    </header>
+
+    <!--  -->
+    <div class="stopwatch">
+      <div class="Digital">
+        <h1 id="InputClock">00:00:00</h1>
+      </div>
+      <div class="imgDiv">
+        <img
+          src="/images/stop.png"
+          alt=""
+          id="stop"
+          class="png"
+          onclick="WatchStop()" />
+        <img
+          src="/images/start.png"
+          alt=""
+          id="start"
+          class="png"
+          onclick="WatchStart()" />
+        <img
+          src="/images/reset.png"
+          alt=""
+          id="reset"
+          class="png"
+          onclick="Reset()" />
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
